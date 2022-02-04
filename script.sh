@@ -2,7 +2,7 @@
 length=$(ls -al /home/harsh | grep pyjenkinsenv | wc -l)
 if [ $length -eq 0 ]
 then
-	python3 -m venv /home/harsh/pyjenkinsenv 
+	sudo python3 -m venv /home/harsh/pyjenkinsenv 
 # && source activate;
 
 else
