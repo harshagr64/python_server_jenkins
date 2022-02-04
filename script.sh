@@ -8,5 +8,5 @@ then
 	/home/harsh/pyjenkinsenv/bin/python3 first.py
 
 else
-	echo "This is not a directory"
+	/home/harsh/pyjenkinsenv/bin/python3 first.py
 fi
