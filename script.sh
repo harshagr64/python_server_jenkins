@@ -8,5 +8,5 @@ then
 # else
 #	/home/harsh/pyjenkinsenv/bin/python3 first.py
 fi
-pip3 install -r requirements.txt
+/home/harsh/pyjenkinsenv/bin/python3 install -r requirements.txt
 /home/harsh/pyjenkinsenv/bin/python3 first.py
