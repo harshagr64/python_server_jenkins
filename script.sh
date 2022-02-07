@@ -8,6 +8,6 @@ then
 # else
 #	/home/harsh/pyjenkinsenv/bin/python3 first.py
 fi
-chown -R harsh /home/harsh/pyjenkinsenv/
+sudo chown -R harsh /home/harsh/pyjenkinsenv/
 /home/harsh/pyjenkinsenv/bin/pip3 install -r requirements.txt
 /home/harsh/pyjenkinsenv/bin/python3 first.py
